@@ -1,0 +1,21 @@
+{
+  "name": "pasiya-md-translator",
+  "version": "1.0.0",
+  "description": "AI Voice Translator by PASIYA-MD",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "bot": "node src/bot-runner.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "telegraf": "^4.16.3",
+    "stripe": "^15.3.0",
+    "multer": "^1.4.5-lts.1",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
